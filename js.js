@@ -16,19 +16,21 @@ function duplicate() {
 		nb++;
 		//alert(nb);
 		var clone_preset = original_preset.cloneNode(true); // "deep" clone
-   		clone_preset.id = "duplicater" + ++name_div; // there can only be one element with an ID
-    	clone_preset.onclick = duplicate; // event handlers are not cloned
+   		clone_preset.id = "Preset" + ++name_div; // there can only be one element with an ID
+    	//clone_preset.onclick = duplicate; // event handlers are not cloned
     	
     	
-    	original_line.replaceChild(clone_preset, original_ADD);
+    	//original_line.replaceChild(clone_preset, original_ADD);
+    	original_line.removeChild(original_ADD)
+    	original_line.appendChild(clone_preset)
     	original_line.appendChild(original_ADD)
 	}else{
 		nameLine++;
 		nb = 0;
 		
 		var clone_preset = original_preset.cloneNode(true); // "deep" clone
-   		clone_preset.id = "duplicater" + ++name_div; // there can only be one element with an ID
-    	clone_preset.onclick = duplicate; // event handlers are not cloned
+   		clone_preset.id = "Preset" + ++name_div; // there can only be one element with an ID
+    	//clone_preset.onclick = duplicate; // event handlers are not cloned
 		
 		original_line.removeChild(original_ADD);
 		original_line.appendChild(clone_preset)
