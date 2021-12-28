@@ -1,0 +1,10 @@
+<div class="all_preset" id="all_preset">
+		<div class="line" id="Line0">
+			<div class="glass" id="Preset0" onclick="modify(this.id)">
+				<h1>preset</h1>
+
+			</div>
+			
+			<div class="ADD" id="ADD" onclick="duplicate()">
+				<img src="./image/croix.gif">
+			</div>

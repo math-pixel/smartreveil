@@ -1,0 +1,12 @@
+<div class="all_preset" id="all_preset">
+		<div class="line" id="Line0">
+			<div class="glass" id="Preset0" onclick="modify(this.id)">
+				<h1>preset</h1>
+
+			</div>
+			
+				<script src="./js.js"></script>
+
+<div class="glass" id="Preset1" onclick="modify(this.id)"><h1>basouaimec</h1></div><div class="glass" id="Preset2" onclick="modify(this.id)"><h1>basouaimec</h1></div></div><div class="line" id="Line1"><div class="glass" id="Preset3" onclick="modify(this.id)"><h1>yey p</h1></div><div class="ADD" id="ADD" onclick="duplicate()">
+				<img src="./image/croix.gif">
+			</div></div></div>
