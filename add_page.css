@@ -1,0 +1,7 @@
+body{
+	color: #5DC1D3;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(./image/code_lyoko.jpg);
+}

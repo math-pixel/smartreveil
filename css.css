@@ -1,0 +1,30 @@
+body{
+	background: linear-gradient(218deg, rgba(254,208,116,1) 0%, rgba(254,181,116,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.line{
+	display: flex;
+	justify-content: space-around;
+
+}
+.glass{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100px;
+	width: 100px;
+	background-color: #FFBD52 ;
+	box-shadow: -5px 10px 15px 0.3px black ;
+}
+
+.glass:hover{
+	background-color: #f6b81e ;
+}
+
+.ADD img{
+	height: 100px;
+	width: 100px;
+	float: right;
+}
